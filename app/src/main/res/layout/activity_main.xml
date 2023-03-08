@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="0"
+        android:text=""
         android:textSize="100sp"/>
 
     <TableLayout
@@ -30,27 +29,30 @@
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="7"
+                android:text="@string/seven"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 style="@style/Widget.AppCompat.Button"
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="8"
+                android:text="@string/eight"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 style="@style/Widget.AppCompat.Button"
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="9"
+                android:text="@string/nine"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
         </TableRow>
 
@@ -64,27 +66,30 @@
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="3"
+                android:text="@string/four"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 style="@style/Widget.AppCompat.Button"
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="5"
+                android:text="@string/five"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 style="@style/Widget.AppCompat.Button"
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="6"
+                android:text="@string/six"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
         </TableRow>
 
@@ -98,27 +103,30 @@
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="1"
+                android:text="@string/one"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 style="@style/Widget.AppCompat.Button"
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="2"
+                android:text="@string/two"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 style="@style/Widget.AppCompat.Button"
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="3"
+                android:text="@string/three"
                 android:textSize="42sp"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                tools:ignore="VisualLintButtonSize" />
 
         </TableRow>
 
@@ -129,13 +137,15 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
-                android:layout_height="match_parent"
                 android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="0"
-                android:textSize="42sp"
                 android:clickable="true"
-                android:onClick="buttonClicked"/>
+                android:onClick="buttonClicked"
+                android:text="@string/clear"
+                android:textSize="42sp"
+                tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck"
+                android:focusable="true" />
 
         </TableRow>
 
